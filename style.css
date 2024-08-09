@@ -141,6 +141,7 @@ footer input[type="email"] {
   width: 15%;
   border: 0px;
   border-radius: 20px 0px 0px 20px;
+  outline: 0;
 }
 footer input[type="submit"] {
   border: 0px;
@@ -154,9 +155,14 @@ form {
   justify-content: center;
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
 p#copy_pedro,
 p#copy_pedro a {
   font-size: 10px;
-  margin-top: 10px;
   color: white;
+  margin-left: 2px;
 }
