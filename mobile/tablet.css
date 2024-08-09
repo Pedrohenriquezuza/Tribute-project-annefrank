@@ -1,0 +1,29 @@
+@media (min-width: 760px) and (max-width: 960px) {
+  .diario_de_anne .img-diario img {
+    margin-right: 20px;
+  }
+
+  /*FOOTER*/
+
+  .txt_footer p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  footer input[type="email"] {
+    width: 40%;
+    height: 40px;
+  }
+  footer input[type="submit"] {
+    width: 10%;
+    font-size: 17px;
+  }
+
+  p#copy_pedro,
+  p#copy_pedro a {
+    font-size: 13px;
+    margin-top: 15px;
+    color: white;
+  }
+}

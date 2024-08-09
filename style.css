@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(imgs/Casa-da-anne-frank-3.jpg.webp);
+  height: 300px;
+}
+
+header img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(7, 7, 7);
+  transition: 0.3s all;
+}
+
+header img:hover {
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(105, 105, 105);
+}
+
+/*SECTION01 - QUEM FOI ANNE FRANK*/
+
+.interface {
+  background-color: #d8d8d8;
+  padding-top: 20px;
+}
+
+.anne_frank {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
+}
+
+.anne_frank h1 {
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.anne_frank h5 {
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 25px;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.anne_frank p {
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+/*ESTILIZANDO TXT_SOBRE_DIARIO*/
+
+.diario_de_anne img {
+  width: 400px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+.diario_de_anne {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 25px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.txt_sobre_diario {
+  width: 400px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #d8d8d8;
+  padding: 10px;
+  border-radius: 20px;
+  line-height: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_casa_de_anne {
+  padding: 0px;
+  margin: 0px;
+}
+
+.img_casa_de_anne img {
+  width: 100%;
+  height: 900px;
+}
+/*FOOTER*/
+
+footer {
+  color: white;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
+
+footer input {
+  padding: 7px;
+}
+
+footer input[type="email"] {
+  width: 15%;
+  border: 0px;
+  border-radius: 20px 0px 0px 20px;
+}
+footer input[type="submit"] {
+  border: 0px;
+  background-color: #ffa600;
+  cursor: pointer;
+}
+
+form {
+  gap: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+p#copy_pedro,
+p#copy_pedro a {
+  font-size: 10px;
+  margin-top: 10px;
+  color: white;
+}

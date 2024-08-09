@@ -1,0 +1,36 @@
+@media (min-width: 320px) and (max-width: 760px) {
+  .anne_frank p {
+    width: 100%;
+  }
+
+  .diario_de_anne {
+    flex-direction: column;
+  }
+  .diario_de_anne .img-diario img {
+    width: 95%;
+    margin-bottom: 15px;
+  }
+
+  .diario_de_anne .txt_sobre_diario {
+    width: 95%;
+  }
+
+  .img_casa_de_anne {
+    display: none;
+  }
+
+  /*FOOTER*/
+  footer {
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .txt_footer {
+    margin-bottom: 13px;
+    font-size: 12px;
+  }
+
+  footer input[type="email"] {
+    width: 170px;
+    height: 35px;
+  }
+}
